@@ -66,17 +66,18 @@ window.onload = function(){
     for (let i=0 ;i<3;i++) {
       // var input = document.forms.theForm;
       //News Data that is outputted
-      var newsData = `<div class="card">
-        <img src="${data.articles[i].media}" alt="news_image">
-        <p class="headline">${data.articles[i].title}</p>
-        <p class="summary">${data.articles[i].summary}</p>
+      var newsData = `<div class="newsSlot">
+        <img src="${data.articles[i].media}" alt="headline image from each article">
+        <p>${data.articles[i].title}</p>
+        <p>${data.articles[i].summary}</p>
 
-        <a href="${data.articles[i].link}" class="read-more">
-            <button>Read More</button>
+        <a href="${data.articles[i].link}">
+          Continue Reading...
         </a>
         </div>`;
         
         news.innerHTML += newsData;
+
       }
       
     })
@@ -104,14 +105,14 @@ window.onload = function(){
       var newsResults = document.querySelector('.news');
       for (let i=0 ;i<3;i++) {
         var input = document.forms.theForm;
-        var covidNews = `<div class="card">
-          <img src="${data.articles[i].media}" alt="news_image">
+        var covidNews = `<div class="newsSlot">
+          <img src="${data.articles[i].media}" alt="headline image from each article">
   
-          <p class="headline">${data.articles[i].title}</p>
-          <p class="summary">${data.articles[i].summary}</p>
+          <p>${data.articles[i].title}</p>
+          <p>${data.articles[i].summary}</p>
   
-          <a href="${data.articles[i].link}" class="read-more">
-              Read More
+          <a href="${data.articles[i].link}">
+              Continue Reading...
           </a>
           </div>`;
           newsResults.innerHTML += covidNews;

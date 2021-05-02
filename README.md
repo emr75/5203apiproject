@@ -1,5 +1,10 @@
 # 5203apiproject
 
+Instructions:
+- Use search engine
+- Search a country and Google maps will locate to that country, news about COVID related to that country will come up
+- YouTube videos related to that country will come up
+
 Sources 
 
 COVID
