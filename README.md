@@ -5,6 +5,9 @@ Instructions:
 - Search a country and Google maps will locate to that country, news about COVID related to that country will come up
 - YouTube videos related to that country will come up
 
+Updates:
+Currently the Search does not work to return the covid news results or locate to the country on google maps. It does return YouTube results.
+
 Sources 
 
 COVID
